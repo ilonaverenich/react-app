@@ -2,7 +2,7 @@
   "name": "shpora",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ilonaverenich.github.io/react-app-shpora/",
+  "homepage": "https://ilonaverenich.github.io/app-react-shpora/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
