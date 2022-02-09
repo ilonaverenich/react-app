@@ -42,7 +42,7 @@ function App() {
         <Route path='/context' element = {<Context />}></Route>
         <Route path='/form' element = {<Form />}></Route>
         <Route path='/antd' element = {<Antdesing />}></Route>
-        <Route path='*' element = {<None />}></Route>
+        {/* <Route path='*' element = {<None />}></Route> */}
       </Routes> 
     </BrowserRouter > 
     </div>
