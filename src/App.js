@@ -24,7 +24,7 @@ function App() {
   return (<div>
     <BrowserRouter>
         <Routes>
-        <Route path='/' element = {<Home />}></Route>
+        <Route path='*' element = {<Home />}></Route>
         <Route path='/home' element = {<Home />}></Route>
         <Route path='/components' element = {<Components />}></Route>
         <Route path='/props' element = {<Props />}></Route>
@@ -42,7 +42,7 @@ function App() {
         <Route path='/context' element = {<Context />}></Route>
         <Route path='/form' element = {<Form />}></Route>
         <Route path='/antd' element = {<Antdesing />}></Route>
-        {/* <Route path='*' element = {<None />}></Route> */}
+  {/*        <Route path='/*' element = {<None />}></Route>  */}
       </Routes> 
     </BrowserRouter > 
     </div>
