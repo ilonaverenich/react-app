@@ -9,6 +9,7 @@ const Headers = () => {
       <Layout className="layout">
          <Header>
             <Menu theme="dark" mode="horizontal" >
+
                <Menu.Item key="1"><NavLink to='/home'>Home</NavLink></Menu.Item>
                <Menu.Item key="2"><NavLink to='/components'>Components</NavLink></Menu.Item>
                <Menu.Item key="3"><NavLink to='/props'>Props</NavLink></Menu.Item>
@@ -26,7 +27,6 @@ const Headers = () => {
                <Menu.Item key="15"><NavLink to='/context'>Context</NavLink></Menu.Item>
                <Menu.Item key="16"><NavLink to='/form'>Form</NavLink></Menu.Item>
                <Menu.Item key="17"><NavLink to='/antd'>Ant Desing</NavLink></Menu.Item>
-
 
             </Menu>
          </Header>
